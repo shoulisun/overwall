@@ -4,7 +4,7 @@
 * Overwall的GitHub下载地址（点击Desktop version->点击Download） [GitHub下载](https://github.com/shoulisun/overwall/blob/master/export/Overwall.zip)
 
 ### GitHub下载方法
-* 手机：第一步，先点击desktop version切换到桌面版![第一步，切换桌面版](/imgs/desktop1.jpg)，![第一步，切换桌面版](/imgs/desktop2.jpg)第二步，点击download下载![第二步，点击下载](/imgs/download.jpg)
+* 手机：第一步，先点击desktop version切换到桌面版![第一步，切换桌面版](./imgs/desktop1.jpg)，![第一步，切换桌面版](./imgs/desktop2.jpg)第二步，点击download下载![第二步，点击下载](./imgs/download.jpg)
 * 电脑：请复制本页链接，用浏览器打开，点“GitHub下载”进去，直接点击download
 
 ### 软件功能：
