@@ -3,10 +3,6 @@
 * Overwall网盘下载地址 [百度网盘下载](https://pan.baidu.com/s/1le5GChFJhxmW8kxdg9c0pg)，可以复制网盘链接到浏览器下载
 * Overwall的GitHub下载地址（点击Desktop version->点击Download） [GitHub下载](https://github.com/shoulisun/overwall/blob/master/export/Overwall.zip)
 
-### GitHub下载方法
-* 手机：第一步，先点击desktop version切换到桌面版![第一步，切换桌面版](./imgs/desktop1.jpg)，![第一步，切换桌面版](./imgs/desktop2.jpg)第二步，点击download下载![第二步，点击下载](./imgs/download.jpg)
-* 电脑：请复制本页链接，用浏览器打开，点“GitHub下载”进去，直接点击download
-
 ### 软件功能：
 * 第一、本软件提供高速网络代理，网络优化，科学上网服务。
 
@@ -47,3 +43,7 @@
 
 ### 联系方式：
 * 第一、如有疑问，请联系良心温柔善良帅气天赋异禀的开发者shoulisun@qq.com
+
+### GitHub下载方法
+* 手机：第一步，先点击最右下角desktop version切换到桌面版![第一步，切换桌面版](./imgs/desktop1.jpg) ![第一步，切换桌面版](./imgs/desktop2.jpg)第二步，点击download下载![第二步，点击下载](./imgs/download.jpg)
+* 电脑：请复制本页链接，用浏览器打开，点“GitHub下载”进去，直接点击download
