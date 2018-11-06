@@ -1,5 +1,6 @@
 * Overwall网盘下载地址 [百度网盘下载](https://pan.baidu.com/s/1le5GChFJhxmW8kxdg9c0pg)
 * Overwall的GitHub下载地址 [GitHub下载](https://github.com/shoulisun/overwall/blob/master/export/Overwall.zip)
+* 转到[软件用户须知并下载](https://github.com/shoulisun/overwall/blob/master/exportREADME.md)
 
 ### 9月29-10月11日：总共13天合计两个周，研究和学习源代码
 ### 10月12日：

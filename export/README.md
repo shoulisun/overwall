@@ -1,5 +1,8 @@
 ## 用户须知
 
+* Overwall网盘下载地址 [百度网盘下载](https://pan.baidu.com/s/1le5GChFJhxmW8kxdg9c0pg)
+* Overwall的GitHub下载地址 [GitHub下载](https://github.com/shoulisun/overwall/blob/master/export/Overwall.zip)
+
 ### 软件功能：
 * 第一、本软件提供高速网络代理，网络优化，科学上网服务，用户使用本软件应遵守相关法律法规，不得传播和售卖本软件。
 * 第二、本软件编写注重精简，注重操作方便，注重用户体验，虽然美工不太好，但实用为主，勿喷。
