@@ -1,8 +1,14 @@
 ## 用户须知
-
+-------------------------------------------------------
+1. 最新版1.0.2下载
+* Overwall网盘下载地址 [百度网盘版本1.0.2下载](https://pan.baidu.com/s/1F7fKciVxYOfalnOrj2gRdg)，可以复制网盘链接到浏览器下载
+* Overwall的GitHub下载地址（点击Desktop version->点击Download） [GitHub版本1.0.2下载](https://github.com/shoulisun/overwall/blob/master/export/Overwall-1.0.2.zip)
+* 更新说明：修复有线网卡BUG，修复没有有线网卡的用户的使用
+-------------------------------------------------------------
+2. 老版本版1.0.1下载
 * Overwall网盘下载地址 [百度网盘下载](https://pan.baidu.com/s/1le5GChFJhxmW8kxdg9c0pg)，可以复制网盘链接到浏览器下载
 * Overwall的GitHub下载地址（点击Desktop version->点击Download） [GitHub下载](https://github.com/shoulisun/overwall/blob/master/export/Overwall.zip)
-
+-------------------------------------------------------------
 ### 软件功能：
 * 第一、本软件提供高速网络代理，网络优化，科学上网服务。
 
