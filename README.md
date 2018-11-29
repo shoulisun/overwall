@@ -2,7 +2,7 @@
 1. 最新版1.0.2下载(更新时间2018/11/28)
 * Overwall网盘下载地址 [百度网盘版本1.0.2下载](https://pan.baidu.com/s/1F7fKciVxYOfalnOrj2gRdg)，可以复制网盘链接到浏览器下载
 * Overwall的GitHub下载地址（点击Desktop version->点击Download） [GitHub版本1.0.2下载](https://github.com/shoulisun/overwall/blob/master/export/Overwall-1.0.2.zip)
-* 更新说明：修复有线网卡BUG，修复没有有线网卡的用户的使用
+* 更新说明：修复有线网卡BUG，修复没有有线网卡的用户的使用；优化启动界面，优化提交流程
 -------------------------------------------------------------
 2. 老版本版1.0.1下载
 * Overwall网盘下载地址 [百度网盘下载](https://pan.baidu.com/s/1le5GChFJhxmW8kxdg9c0pg)，可以复制网盘链接到浏览器下载
@@ -79,6 +79,7 @@
 1. 客户端：   
     修复Mac地址获取漏洞
     没有以太网络适配器的用户也能使用
+    优化启动界面，优化提交流程
 2. 服务端：
     修复延长时间的bug，延长时间不合理的bug
 ---------------------------------------------------------------
