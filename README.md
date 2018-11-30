@@ -1,4 +1,7 @@
 -------------------------------------------------------
+*新手必看Overwall使用教程
+* Overwall-PC端使用教程[戳我戳我观看视频教程](https://shoulisun.github.io/overwall/export/overwall/overwall.html)
+-------------------------------------------------------
 1. 最新版1.0.2下载(更新时间2018/11/28)
 * Overwall网盘下载地址 [百度网盘版本1.0.2下载](https://pan.baidu.com/s/1PiRXIv-VEUYbbFl3TaHS1g)，可以复制网盘链接到浏览器下载
 * Overwall的GitHub下载地址（点击Desktop version->点击Download） [GitHub版本1.0.2下载](https://github.com/shoulisun/overwall/blob/master/export/Overwall-1.0.2.zip)
