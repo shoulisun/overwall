@@ -5,13 +5,13 @@
 ---------------------------------------------------------
 1. 最新版2.0下载(更新时间2019/3/1)
 * Overwall网盘下载地址 [百度网盘版本2.0下载](https://pan.baidu.com/s/1f6DK4TyjGDERikIPB7mOhA)，提取码：ot7l，可以复制网盘链接到浏览器下载，
-* 微信扫描百度网盘二维码下载到手机然后分享到电脑，这样更方便哦![微信扫描二维码更方便哦](imgs/Overwall-2.0.png)
+* 微信扫描百度网盘二维码下载到手机然后分享到电脑，这样更方便哦![微信扫描二维码更方便哦](export/imgs/Overwall-2.0.png)
 * Overwall的GitHub下载地址（点击Desktop version->点击Download） [GitHub版本2.0下载](https://github.com/shoulisun/overwall/blob/master/export/Overwall-2.0.zip)
 * 新版特性：全新UI界面，增加节点选择，节点测试功能
 -------------------------------------------------------
 1. 版本1.0.2下载(更新时间2018/11/28)
 * Overwall网盘下载地址 [百度网盘版本1.0.2下载](https://pan.baidu.com/s/1CfIpRWK8rtRbfKBNCuLHMw)，可以复制网盘链接到浏览器下载，
-* 微信扫描百度网盘二维码下载到手机然后分享到电脑，这样更方便哦![微信扫描二维码更方便哦](./imgs/二维码.png)
+* 微信扫描百度网盘二维码下载到手机然后分享到电脑，这样更方便哦![微信扫描二维码更方便哦](export/imgs/二维码.png)
 * Overwall的GitHub下载地址（点击Desktop version->点击Download） [GitHub版本1.0.2下载](https://github.com/shoulisun/overwall/blob/master/export/Overwall-1.0.2.zip)
 * 更新说明：修复有线网卡BUG，修复没有有线网卡的用户的使用;优化启动界面，优化提交流程
 -------------------------------------------------------------
