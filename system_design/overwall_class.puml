@@ -1,0 +1,34 @@
+@startuml
+
+title 《Overwall后台管理系统》-类分析
+class 服务器类Server {
+服务器IP地址（String ipAddress）
+端口（Integer serverPort）
+节点名称（String nodeName）
+密码（String password）
+加密方式（String encryptionMode）
+}
+class 系统类Admin{
+管理员密码（String password）
+}
+class 用户类User{
+用户创建时间（String creationTime）
+计算机登录账户名（String accountName）
+计算机名（String machineName）
+用户Mac地址（String macAddress）
+用户是否被禁用（String disabled）
+到期时间（String expiryTime）
+用户捐赠记录（List<Record> records）
+}
+class 捐赠记录Record{
+捐赠时间（String donationTime）
+捐赠金额（Integer cost）
+支付方式（String payWay）
+是否审批（Boolean ifApprove）
+是否有效（Boolean ifValid）
+记录状态（String status）
+捐赠用户（User user）
+}
+服务器类Server--系统类Admin
+用户类User <-down-捐赠记录Record
+@enduml
