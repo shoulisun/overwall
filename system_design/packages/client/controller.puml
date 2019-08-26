@@ -1,0 +1,26 @@
+@startuml
+title 客户端设计-命名空间-Controller
+left to right direction
+namespace Overwall.Controller{
+    namespace Overwall.Controller.Service{
+        class Listener
+        class PACServer
+        class PortForwarder
+        class PrivoxyRunner
+        class TCPRelay
+        class UDPRelay
+        class UpdateChecker
+    }
+    namespace Overwall.Controller.System{
+        class AutoStartup
+        class SystemProxy
+        AutoStartup--SystemProxy
+    }
+    class OverwallController
+    class Logging
+    class FileManager
+    OverwallController-up-FileManager
+    FileManager-up-Logging
+}
+
+@enduml

@@ -1,0 +1,30 @@
+@startuml
+title Overwall网络代理系统-架构图
+
+cloud "云端"{
+[后台管理系统]
+}
+database "数据库"{
+database MySQL [
+用户信息
+----
+服务器信息
+]
+}
+cloud 服务端
+node 客户端
+node 浏览器
+后台管理系统 =right= MySQL
+后台管理系统 -right- HTTP接口
+浏览器 .down.> HTTP接口:请求
+客户端 .up.> HTTP接口:调用
+浏览器 -right- 管理员后台管理
+queue 隧道[
+加密                 隧道
+]
+客户端 <-right-> 服务端:加密的代理通信（TCP/UDP）
+客户端 <--> 用户界面
+服务端 <--> 外部主机
+用户界面 .right. 隧道
+隧道 .right. 外部主机
+@enduml

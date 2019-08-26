@@ -1,0 +1,17 @@
+@startuml
+title 客户端设计-命名空间-Model
+left to right direction
+namespace Overwall.Model{
+    class Configuration
+    class LogViewerConfig
+    class ProxyConfig
+    class Server
+    class SysproxyConfig
+    namespace Overwall.Model.Donation{
+        class Code
+        class MyServer
+        class Record
+        class User
+    }
+}
+@enduml

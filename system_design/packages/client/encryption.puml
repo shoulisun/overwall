@@ -1,0 +1,34 @@
+@startuml
+title 客户端设计-命名空间-Encryption
+left to right direction
+namespace Overwall.Encryption{
+    namespace Overwall.Encryption.AEAD{
+        class AEADEncryptor
+        class AEADMbedTLSEncryptor
+        class AEADOpenSSLEncryptor
+        class AEADSodiumEncryptor
+    }
+    namespace Overwall.Encryption.Stream{
+        class StreamEncryptor
+        class StreamMbedTLSEncryptor
+        class StreamOpenSSLEncryptor
+        class StreamSodiumEncryptor
+    }
+    namespace Overwall.Encryption.CircularBuffer{
+        class "ByteCircularBuffer"
+        }
+    namespace Overwall.Encryption.Exception{
+        class CryptoException
+    }
+    Overwall.Encryption.Exception--Overwall.Encryption.CircularBuffer
+    class EncryptorBase
+    class EncryptorFactory
+    class IEncryptor
+    class MbedTLS
+    class OpenSSL
+    class RNG
+    class Sodium
+    EncryptorBase -- EncryptorFactory
+}
+
+@enduml

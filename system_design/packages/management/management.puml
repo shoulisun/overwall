@@ -1,0 +1,64 @@
+@startuml
+title 管理系统设计-包图
+left to right direction
+package Overwall{
+    class OverwallApplication
+    package Overwall.configuration{
+        class OverwallConfigurer
+    }
+    package Overwall.controller{
+        class MainController
+        class RecordController
+        class ServerController
+        class UserController
+    }
+    package Overwall.dto{
+        class AdminDto
+        class ManageUserDto
+        class RecordDto
+        class ServerDto
+        class UnauthRecordDto
+        class UserDto
+    }
+    package Overwall.interceptor{
+        class LoginInterceptor
+        class LoginInterceptor2
+        class RegisterInterceptor
+    }
+    package Overwall.po{
+        class Admin
+        class Record
+        class Server
+        class User
+    }
+    package Overwall.pojo{
+        class MyCode
+    }
+    package Overwall.repository{
+        class AdminRepository
+        class RecordRepository
+        class ServerRepository
+        class UserRepository
+    }
+    package Overwall.service{
+        interface AdminService
+        interface RecordService
+        interface ServerService
+        interface UserService
+        package Overwall.service.impl{
+            class AdminServiceImpl
+            class RecordServiceImpl
+            class ServerServiceImpl
+            class UserServiceImpl
+        }
+    }
+    package Overwall.utils{
+        class DateUtil
+        class PhoneUrlUtil
+    }
+
+    Overwall.configuration--Overwall.pojo
+    Overwall.pojo--OverwallApplication
+}
+
+@enduml

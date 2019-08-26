@@ -1,0 +1,14 @@
+@startuml
+title 客户端设计-命名空间-View
+left to right direction
+
+namespace Overwall.View{
+    class AboutForm
+    class AgreementForm
+    class DonationRecordForm
+    class LogForm
+    class MenuViewController
+    class QRcodeForm
+    class StartForm
+}
+@enduml

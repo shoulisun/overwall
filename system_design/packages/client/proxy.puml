@@ -1,0 +1,12 @@
+@startuml
+
+title 客户端设计-命名空间-Proxy
+left to right direction
+namespace Overwall.Proxy{
+    class DirectConnect
+    class HttpProxy
+    class IProxy
+    class Socks5Proxy
+}
+
+@enduml

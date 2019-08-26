@@ -1,0 +1,35 @@
+@startuml
+
+title 客户端设计-命名空间-Util
+left to right direction
+namespace Overwall.Util{
+    namespace Overwall.Util.Donation{
+        class EnvironmentUtil
+        class HttpUtil
+
+    }
+    namespace Overwall.UtilProcessManagement{
+        class Job
+        class ThreadUtil
+
+    }
+    namespace Overwall.UtilSockets{
+        class LineReader
+        class SocketUtil
+        class WrappedSocket
+        SocketUtil -left- WrappedSocket
+        WrappedSocket -left- LineReader
+    }
+    namespace Overwall.UtilSystemProxy{
+        class ProxyException
+        class Sysproxy
+
+    }
+    class Util
+    class ViewUtils
+    Util -- ViewUtils
+    Overwall.UtilSystemProxy -- Overwall.UtilProcessManagement
+    Overwall.UtilSockets -- Overwall.Util.Donation
+}
+
+@enduml

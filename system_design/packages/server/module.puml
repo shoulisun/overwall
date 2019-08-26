@@ -1,0 +1,25 @@
+@startuml
+
+title 服务端设计-模块图
+left to right direction
+package overwall{
+    package overwall.crypto{
+        class openssl
+        class rc4_md5
+        class sodium
+        class table
+        class util
+    }
+    class asyncdns
+    class common
+    class encrypt
+    class daemon
+    class eventloop
+    class local
+    class manager
+    class server
+    class shell
+    class tcprelay
+    class udprelay
+}
+@enduml
